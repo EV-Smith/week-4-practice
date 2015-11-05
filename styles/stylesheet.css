@@ -1,0 +1,115 @@
+* {box-sizing: border-box; }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+}
+
+h1 {
+      font-size: 3.4rem;
+      line-height: 3.8rem;
+      font-weight: 700;
+      color: #8468b3;
+      margin: 0 auto;
+      max-width: 85%;
+      text-align: center;
+      padding-top: 4rem;
+      padding-bottom: 1.3rem;
+}
+
+nav ul {
+          width: 100%;
+          background-color: #8468b3;
+}
+
+nav li {
+          float: left;
+          width: 14.28%;
+          border-right: 4px solid #6a4e99;
+          background-color: #8468b3;
+          list-style: none;
+          padding: .65rem;
+          text-align: center;
+          font-size: 1.35rem;
+          font-weight: 700;
+}
+
+nav li:last-child {
+          border: none;
+}
+
+nav a {
+        text-decoration: none;
+        color: #ffffff;
+}
+
+aside {
+        clear: both;
+        float: left;
+        background-color: #c1b1d5;
+        width: 23%;
+        height: 45rem;
+}
+
+aside li {
+          list-style: none;
+          padding: .5rem;
+          text-align: center;
+}
+
+aside ul {
+          padding: 7rem 0;
+}
+aside a {
+        list-style: none outside none;
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.35rem;
+        font-weight: 600;
+        color: #ffffff;
+}
+
+figure {
+        background-color: #e1e4e9;
+        float: right;
+        width: 77%;
+        height: 45rem;
+      
+}
+
+figure img {
+        display: block;
+        padding: 6rem 0 2rem 0;
+        width: 55%;
+        margin: 0 auto;
+}
+
+figcaption {
+          width: 70%;
+          text-align: center;
+          margin: 0 auto;
+          font-size: 1rem;
+          line-height: 1.4rem;
+          font-weight: 200;
+}
+
+footer {
+    clear: both;
+}
+
+footer ul {
+  margin: 0 auto;
+  padding: 0 0 0 35%;
+}
+
+footer img {
+  float: left;
+  display: block;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
